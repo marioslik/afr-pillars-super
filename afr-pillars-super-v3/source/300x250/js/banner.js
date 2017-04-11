@@ -37,8 +37,8 @@ function init() {
 
     $('.frame-2 p').html('SAVING YOUR<br>BACON');
     $('.frame-3 p').html("IT'S TIME TO<br>RETHINK SUPER");
-    $('.frame-4 p').html('MASTER THE MARKETS<br>WITH THE AFR');
-    $('.frame-5 p').html('TRY THE AFR<br>FREE FOR 1 MONTH');
+    $('.frame-4 p').html('MASTER THE MARKETS<br>WITH THE AFR.');
+    $('.frame-5 p').html('TRY THE AFR<br>FREE FOR 1 MONTH.');
 
     $('.cta-copy').html('Find out more');
 
@@ -70,11 +70,9 @@ function init() {
     frame05 = timingValues[4];
 
     const manifest = [
-        "grumpycat.jpg",
-        "photo.jpg",
-        "icebergMain.png",
-        "iceberg.png",
-        "dollar.png"
+        "pig-lid.png",
+        "pig-scene.png",
+        "skybg.jpg"
     ];
 
     preloadimages(manifest)
